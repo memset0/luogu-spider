@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html class="no-js">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   用户空间 - 洛谷
+  </title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+  <meta content="webkit" name="renderer"/>
+  <meta content="1526539069:/xjEp3h1zxC2/g2PQzq+GsQPI6/Jv3IQhLDBj0EY3ik=" name="csrf-token"/>
+  <link href="https://cdn.luogu.org/images/favicon3.ico" media="screen" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://cdn.luogu.org/css/amazeui.min.css" rel="stylesheet"/>
+  <link href="https://cdn.luogu.org/css/katex.min.css" rel="stylesheet"/>
+  <link href="https://cdn.luogu.org/css/luogu3.css?ver=20180201-b" rel="stylesheet"/>
+  <link href="https://cdn.luogu.org/css/highlight_tomorrow.css" rel="stylesheet"/>
+  <link href="https://cdn.luogu.org/markdown-palettes/markdown-palettes.css?ver=20180322" rel="stylesheet"/>
+  <script src="https://cdn.luogu.org/js/jquery-2.1.1.min.js">
+  </script>
+  <script src="https://cdn.luogu.org/js/luogu3_pre.js?ver=20180127">
+  </script>
+ </head>
+ <body class="am-with-topbar-fixed-top">
+  <!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，洛谷暂不支持。 请 <a href="http://browsehappy.com/"
+                                                                 target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+<![endif]-->
+  <header class="am-topbar lg-header am-topbar-fixed-top ">
+   <div class="am-topbar-brand" myuid="">
+    <a class="lg-nav-logo" data-pjax="" href="/">
+    </a>
+   </div>
+   <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}">
+    <span class="am-sr-only">
+     导航切换
+    </span>
+    <span class="am-icon-bars">
+    </span>
+   </button>
+   <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-left lg-header-list">
+     <li>
+      <a class="lg-header-li lg-md-hide" href="https://class.luogu.org" target="_blank">
+       洛谷网校
+      </a>
+     </li>
+    </ul>
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right lg-header-list">
+     <li class="am-dropdown" data-am-dropdown="">
+      <a class="am-dropdown-toggle lg-header-li" data-am-dropdown-toggle="" href="javascript:">
+       <span class="am-icon-puzzle-piece">
+       </span>
+       应用
+       <span class="am-icon-caret-down">
+       </span>
+      </a>
+      <ul class="am-dropdown-content">
+       <li>
+        <a data-pjax="" href="/app/upload">
+         图片上传
+        </a>
+       </li>
+       <li>
+        <a href="/app/ide_frame" target="_blank">
+         在线 IDE
+        </a>
+       </li>
+       <li>
+        <a data-pjax="" href="/paste">
+         云剪贴板
+        </a>
+       </li>
+       <li>
+        <a data-pjax="" href="/app/userproblem">
+         举办比赛
+         <br/>
+         个人私有题库
+        </a>
+       </li>
+       <li>
+        <a data-pjax="" href="/discuss/lists?forumname=service">
+         反馈问题
+         <br/>
+         提交各类申请
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <div class="am-topbar-form am-topbar-right am-form-inline lg-hide">
+       <div class="am-input-group am-input-group-secondary am-input-group-sm">
+        <input class="am-form-field am-input-sm am-radius" id="topbar-search-text" placeholder="题目搜索" type="text"/>
+        <a class="am-input-group-label" id="topbar-search">
+         <span class="am-icon-search">
+         </span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <script>
+      $("#topbar-search").click(function() {
+                        goto_url("/problemnew/lists", {
+                            name: $("#topbar-search-text").val()
+                        });
+                    });
+					$("#topbar-search-text").keyup(function (event) {
+						if (event.keyCode == 13) {
+							if($(this).val()=='')return;
+							goto_url('/problemnew/lists', {name: $(this).val()})
+						}
+					})
+     </script>
+     <li class="am-hide-sm-only">
+      <a class="lg-header-li" data-pjax="" href="/login/loginpage">
+       <span class="am-icon-sign-in">
+       </span>
+       登录
+      </a>
+     </li>
+     <li class="am-hide-sm-only">
+      <a class="lg-header-li" data-pjax="" href="/login/reg">
+       <span class="am-icon-user-plus">
+       </span>
+       注册
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <div class="am-cf lg-main">
+   <div class="lg-rail-sidebar">
+    <div class="lg-sidebar am-offcanvas" id="lg-offcanvas">
+     <div class="am-offcanvas-bar lg-offcanvas-bar">
+      <ul class="am-list lg-sidebar-list">
+       <li class="am-show-sm-only">
+        <a class="lg-bg-bluedark lg-sidebar-username" data-pjax="" href="/login/loginpage">
+         <span class="am-icon-sign-in">
+         </span>
+         登录
+        </a>
+       </li>
+       <li class="am-show-sm-only">
+        <a class="lg-bg-bluedark lg-sidebar-username" data-pjax="" href="/login/reg">
+         <span class="am-icon-user-plus">
+         </span>
+         注册
+        </a>
+       </li>
+       <li class="lg-nav-home ">
+        <a class="lg-nav-btn" data-pjax="" href="/" title="首页">
+         <span class="am-icon-home ">
+         </span>
+         <span class="lg-sidebar-small">
+          首页
+         </span>
+        </a>
+       </li>
+       <li class="lg-nav-problem">
+        <a class="lg-nav-btn" data-pjax="" href="/problemnew/lists" title="题目">
+         <span class="am-icon-book">
+         </span>
+         <span class="lg-sidebar-small">
+          题目
+         </span>
+        </a>
+       </li>
+       <li class="lg-nav-training">
+        <a class="lg-nav-btn" data-pjax="" href="/training/mainpage" title="试炼场">
+         <span class="am-icon-lightbulb-o">
+         </span>
+         <span class="lg-sidebar-small">
+          试炼场
+         </span>
+        </a>
+       </li>
+       <li class="lg-nav-contest">
+        <a class="lg-nav-btn" data-pjax="" href="/contest/lists" title="比赛">
+         <span class="am-icon-bar-chart">
+         </span>
+         <span class="lg-sidebar-small">
+          比赛
+         </span>
+        </a>
+       </li>
+       <li class="lg-nav-record">
+        <a class="lg-nav-btn" data-pjax="" href="/recordnew/lists?uid=" title="评测记录">
+         <span class="am-icon-pie-chart">
+         </span>
+         <span class="lg-sidebar-small">
+          评测记录
+         </span>
+        </a>
+       </li>
+       <li class="lg-nav-team">
+        <a class="lg-nav-btn" data-pjax="" href="/team/lists" title="团队">
+         <span class="am-icon-users">
+         </span>
+         <span class="lg-sidebar-small">
+          团队
+         </span>
+        </a>
+       </li>
+       <li class="lg-nav-discuss">
+        <a class="lg-nav-btn" data-pjax="" href="/discuss/lists" title="讨论">
+         <span class="am-icon-comments">
+         </span>
+         <span class="lg-sidebar-small">
+          讨论
+         </span>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="lg-content">
+    <div class="lg-toolbar" data-am-sticky="">
+     <h1>
+      U1
+      <span name="username">
+       kkksc03
+      </span>
+     </h1>
+    </div>
+    <div class="am-g lg-main-content">
+     <div class="am-u-md-4 lg-right">
+      <section class="am-panel am-panel-default lg-summary">
+       <div class="lg-summary-content">
+        <ul class="am-list am-list-static lg-summary-list">
+         <li>
+          <img class="lg-avatar-big am-center" src="https://cdn.luogu.org/upload/usericon/1.png"/>
+         </li>
+         <li>
+          <ul class="am-avg-sm-2">
+           <li>
+            <span class="lg-bignum-num">
+             589
+            </span>
+            <span class="lg-bignum-text">
+             提交
+            </span>
+           </li>
+           <li>
+            <span class="lg-bignum-num">
+             120
+            </span>
+            <span class="lg-bignum-text">
+             通过
+            </span>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <strong>
+           贡献/活跃/积分
+          </strong>
+          <span class="lg-right">
+           208 / 590 / 2230
+          </span>
+         </li>
+         <li>
+          <strong>
+           用户类型
+          </strong>
+          <span class="lg-right">
+           超级管理员/Root
+          </span>
+         </li>
+         <li>
+          <strong>
+           注册时间
+          </strong>
+          <span class="lg-right">
+           2012-06-18 14:13
+          </span>
+         </li>
+        </ul>
+        <p>
+         <a class="am-btn am-btn-sm am-btn-primary" href="https://www.luogu.org/blog/kkksc03/" target="_blank">
+          Ta的洛谷博客
+         </a>
+        </p>
+       </div>
+      </section>
+      <div class="lg-article am-hide-sm">
+       <h2>
+        通过题目
+       </h2>
+       [
+       <a data-pjax="" href="/problem/show?pid=P1001">
+        P1001
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1002">
+        P1002
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1003">
+        P1003
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1005">
+        P1005
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1007">
+        P1007
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1008">
+        P1008
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1009">
+        P1009
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1010">
+        P1010
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1012">
+        P1012
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1013">
+        P1013
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1015">
+        P1015
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1017">
+        P1017
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1020">
+        P1020
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1025">
+        P1025
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1028">
+        P1028
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1031">
+        P1031
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1033">
+        P1033
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1035">
+        P1035
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1042">
+        P1042
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1044">
+        P1044
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1045">
+        P1045
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1046">
+        P1046
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1047">
+        P1047
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1048">
+        P1048
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1056">
+        P1056
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1061">
+        P1061
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1063">
+        P1063
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1064">
+        P1064
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1067">
+        P1067
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1068">
+        P1068
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1085">
+        P1085
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1086">
+        P1086
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1088">
+        P1088
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1089">
+        P1089
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1090">
+        P1090
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1091">
+        P1091
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1094">
+        P1094
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1095">
+        P1095
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1099">
+        P1099
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1120">
+        P1120
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1125">
+        P1125
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1138">
+        P1138
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1149">
+        P1149
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1150">
+        P1150
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1179">
+        P1179
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1190">
+        P1190
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1196">
+        P1196
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1203">
+        P1203
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1236">
+        P1236
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1237">
+        P1237
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1244">
+        P1244
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1262">
+        P1262
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1268">
+        P1268
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1312">
+        P1312
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1314">
+        P1314
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1371">
+        P1371
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1381">
+        P1381
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1421">
+        P1421
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1422">
+        P1422
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1425">
+        P1425
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1434">
+        P1434
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1440">
+        P1440
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1441">
+        P1441
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1448">
+        P1448
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1480">
+        P1480
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1494">
+        P1494
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1495">
+        P1495
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1498">
+        P1498
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1514">
+        P1514
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1529">
+        P1529
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1530">
+        P1530
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1531">
+        P1531
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1536">
+        P1536
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1540">
+        P1540
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1543">
+        P1543
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1544">
+        P1544
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1579">
+        P1579
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1612">
+        P1612
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1679">
+        P1679
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1710">
+        P1710
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1721">
+        P1721
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1903">
+        P1903
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1908">
+        P1908
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2068">
+        P2068
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2081">
+        P2081
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2144">
+        P2144
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2238">
+        P2238
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2248">
+        P2248
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2291">
+        P2291
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2312">
+        P2312
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2350">
+        P2350
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2354">
+        P2354
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2367">
+        P2367
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2378">
+        P2378
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2409">
+        P2409
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2415">
+        P2415
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2438">
+        P2438
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2541">
+        P2541
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2556">
+        P2556
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2617">
+        P2617
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2634">
+        P2634
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2668">
+        P2668
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2671">
+        P2671
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2693">
+        P2693
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2762">
+        P2762
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2763">
+        P2763
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2765">
+        P2765
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2858">
+        P2858
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3034">
+        P3034
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3164">
+        P3164
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3198">
+        P3198
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3235">
+        P3235
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3375">
+        P3375
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3391">
+        P3391
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3394">
+        P3394
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3406">
+        P3406
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3615">
+        P3615
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3616">
+        P3616
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3623">
+        P3623
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3631">
+        P3631
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3656">
+        P3656
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3684">
+        P3684
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3696">
+        P3696
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3697">
+        P3697
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3803">
+        P3803
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3817">
+        P3817
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3920">
+        P3920
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3933">
+        P3933
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3934">
+        P3934
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3947">
+        P3947
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3984">
+        P3984
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3985">
+        P3985
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P4138">
+        P4138
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P4315">
+        P4315
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=CF912E">
+        CF912E
+       </a>
+       ]
+      </div>
+     </div>
+     <div class="am-u-md-8 lg-right">
+      <div style="padding-top: 20px; margin-bottom: -20px;">
+      </div>
+      <div class="lg-content-left">
+       <div class="lg-article am-g">
+        <h2>
+         签名
+        </h2>
+        <p>
+         吼啊
+        </p>
+       </div>
+       <div class="lg-article am-g lg-status">
+        <div class=" am-g" style="height: 200px;padding-top: 10px">
+         <div class="am-u-md-6 am-text-center" id="container" style="height: 100%; margin-right: -20px">
+         </div>
+         <div class="am-u-md-6 am-text-center" id="container2" style="height: 100%; ">
+         </div>
+        </div>
+        <script>
+         $(function () {
+                            $('#container').highcharts({"title":{"text":"","floating":true},"chart":{"backgroundColor":"rgba(0,0,0,0)"},"legend":{"enabled":false},"xAxis":{"categories":["May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb","Mar","Apr"],"floating":true,"minTickInterval":2},"yAxis":[{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[1]"}},"title":{"text":"\u7d2f\u79ef\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[1]"}},"floor":107},{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[3]"},"enabled":false},"title":{"text":"\u65b0\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[3]"},"enabled":false},"opposite":true}],"tooltip":{"shared":true},"series":[{"name":"\u7d2f\u79ef\u901a\u8fc7\u6570","type":"area","data":[112,112,112,113,113,115,115,115,118,119,120,120]},{"name":"\u5f53\u6708\u901a\u8fc7\u6570","type":"column","data":[1,0,0,1,1,3,0,0,4,2,1,0],"yAxis":1}],"credits":{"enabled":false}});
+                            $('#container2').highcharts({"title":{"text":"","floating":true},"chart":{"backgroundColor":"rgba(0,0,0,0)"},"legend":{"enabled":false},"xAxis":{"categories":["05-1","05-2","05-3","05-4","05-5","05-6","05-7","05-8","05-9","05-10","05-11","05-12","05-13","05-14","05-15","05-16","05-17","05-18","05-19","05-20","05-21","05-22","05-23","05-24","05-25","05-26","05-27","05-28","05-29","05-30","05-31"],"floating":true,"minTickInterval":5},"yAxis":[{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[1]"},"enabled":false},"title":{"text":"\u7d2f\u79ef\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[1]"},"enabled":false},"floor":115},{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[3]"}},"title":{"text":"\u65b0\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[3]"}},"opposite":true}],"tooltip":{"shared":true},"series":[{"name":"\u7d2f\u79ef\u901a\u8fc7\u6570","type":"area","data":[120,120,120,120,120,120,120,120,120,120,120,120,120,120,120,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},{"name":"\u5f53\u65e5\u901a\u8fc7\u6570","type":"column","data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"yAxis":1}],"credits":{"enabled":false}});
+                        });
+        </script>
+       </div>
+       <ul class="am-comments-list am-comments-list-flip" id="feed">
+       </ul>
+       <div class="lg-article am-text-center" id="feed-more">
+        <a>
+         点击查看更多...
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <script>
+     var subfunc = window.location.hash;
+    var autouid = 0;
+    var uid = 1;
+
+    function to_wiki_list(uid, page) {
+        page = page || 1;
+        $(".lg-content-left").html("<div class='lg-article-sub am-g' > </div>");
+        hide_artile();
+        $(document).scrollTop($(document).scrollTop() - 80);
+        $("#unread-notice").remove();
+        $.get("/space/ajax_wiki_list?uid="+uid+"&page="+page, function (data) {
+            $('.lg-content-left').html(data);
+            $('#home-center-nav li').removeClass("am-active");
+            $('#home-center-nav .home-center-wiki-list').addClass("am-active");
+            rebind();
+        });
+    }
+
+    function to_notice() {
+        $(".lg-content-left").html("<div class='lg-article-sub am-g' > </div>");
+        hide_artile();
+        $(document).scrollTop($(document).scrollTop() - 80);
+        $("#unread-notice").remove();
+        $.get("/space/ajax_mynotice",
+            function (data) {
+                var arr = eval('(' + data + ')');
+                $('.lg-content-left').html(arr['more']['html']);
+            });
+    }
+    function to_message() {
+        $(".lg-content-left").html("<div class='lg-article-sub am-g' > </div>");
+        hide_artile();
+        $(document).scrollTop($(document).scrollTop() - 80);
+        $("#unread-message").remove();
+        $.get("/space/ajax_message",
+            function (data) {
+                var arr = eval('(' + data + ')');
+                $('.lg-content-left').html(arr['more']['html']);
+            });
+    }
+    function to_setting() {
+        $(".lg-content-left").html("<div class='lg-article-sub am-g'> </div>");
+        hide_artile();
+        $(document).scrollTop($(document).scrollTop() - 80);
+        $.get("/space/ajax_modify",
+            function (data) {
+                var arr = eval('(' + data + ')')
+                $('.lg-article-sub').html(arr['more']['html']);
+                $('.lg-article-sub').show();
+                rebind();
+            });
+    }
+    $("#mynotice_btn").click(
+        function () {
+            to_notice();
+        }
+    );
+    $("#message_btn").click(
+        function () {
+            to_message();
+        }
+    );
+    $("#setting_btn").click(
+        function () {
+            to_setting();
+        }
+    );
+
+    var feedPage = 1;
+    var feedMode = 'user/1';
+    var $feed = $("#feed");
+    function loadFeed() {
+        $.get("/feed/"+feedMode+"?page="+feedPage, function(resp) {
+            $feed.append(resp);
+            $("#feed-more").children("a").text("点击查看更多...")
+            $(".feed-delete").click(function() {
+                $.post("/api/feed/delete/"+$(this).attr('data-feed-id'), function() {
+                    switchMode('all');
+                })
+            })
+        });
+        feedPage++;
+    }
+
+    function reloadBenben() {
+        feedPage = 1;
+        $feed.html('');
+        loadFeed();
+    }
+
+    $(document).ready(function() {
+        reloadBenben();
+        $("#feed-more").click(function() {
+            $(this).children("a").text("加载中...");
+            loadFeed();
+        });
+        switch (subfunc) {
+            case "#sub" :
+            case "":
+                //get_notice(url);
+                break;
+            case "#wiki_list":
+                to_wiki_list(1);
+                break;
+            case "#mynotice":
+                to_notice();
+                break;
+            case "#setting":
+                to_setting();
+                break;
+            case "#message":
+            default:
+                autouid = subfunc;
+                to_message();
+                break;
+        }
+    })
+
+
+    $(window).scroll(
+        function () {
+            if ($(window).scrollTop() >= $(document).height() - $(window).height() - 400) {
+                var has_benben = $('#benbennextrow');
+                if (has_benben && autoload < 1) {
+                    autoload++;
+                    get_notice(url);
+                }
+            }
+        });
+    $(".lg-unread-icon>.am-icon-paper-plane").click(function () {
+        to_notice();
+    });
+    $(".lg-unread-icon>.am-icon-envelope").click(function () {
+        to_message()
+    });
+    </script>
+   </div>
+  </div>
+  <a class="am-show-sm-only lg-menu" data-am-offcanvas="{target: '#lg-offcanvas'}" href="#">
+   <span class="am-icon-btn am-icon-th-list">
+   </span>
+  </a>
+  <div class="lg-footer">
+   <div class="lg-footer-top">
+   </div>
+   <div class="lg-index-tool am-g">
+    <div class="am-u-md-3 am-hide-sm">
+     <img class="lg-inline-up" src="https://cdn.luogu.org/images/logo_white_3.png" width="175"/>
+    </div>
+    <div class="am-u-md-4 am-hide-sm">
+     <h1 style="color: #999;margin: 0">
+      在洛谷，
+      <br/>
+      享受Coding的欢乐
+     </h1>
+    </div>
+    <div class="am-u-md-5 am-md-text-right">
+     <a href="/wiki/show?name=关于洛谷">
+      关于洛谷
+     </a>
+     |
+     <a href="/wiki/show?name=帮助">
+      帮助中心
+     </a>
+     |
+     <a href="/wiki/show?name=洛谷社区规则">
+      洛谷社区规则
+     </a>
+     |
+     <a href="/wiki/show?name=洛谷用户协议">
+      用户协议
+     </a>
+     |
+     <a href="/discuss/lists?forumname=miaomiaowu">
+      小黑屋
+     </a>
+     |
+     <a href="/wiki/show?name=联系我们">
+      联系我们
+     </a>
+     <br/>
+     2013-2018 , 洛谷 ©
+Developed by the
+     <a href="https://github.com/luogu-dev" target="_blank">
+      Luogu Dev Team
+     </a>
+     <br/>
+     All rights reserved
+     <a href="http://www.miitbeian.gov.cn/">
+      陕ICP备17005722号-1
+     </a>
+     .
+     <script language="JavaScript" src="//s23.cnzz.com/stat.php?id=5476811&amp;web_id=5476811">
+     </script>
+     <br/>
+     Master:
+     <b>
+      TrySail
+     </b>
+     /
+DB:
+     <b>
+      IndexL
+     </b>
+     /
+CGI:
+     <b>
+      Numazu
+     </b>
+    </div>
+   </div>
+  </div>
+  <div class="am-modal am-modal-alert" id="lg-alert" tabindex="-1">
+   <div class="am-modal-dialog">
+    <div class="am-modal-hd" id="lg-alert-title">
+    </div>
+    <div class="am-modal-bd" id="lg-alert-message">
+    </div>
+    <div class="am-modal-footer">
+     <span class="am-modal-btn">
+      确定
+     </span>
+    </div>
+   </div>
+  </div>
+  <script src="https://cdn.luogu.org/js/ace/ace.js">
+  </script>
+  <script data-manual="" src="https://cdn.luogu.org/js/vendor.js">
+  </script>
+  <script data-manual="" src="https://cdn.luogu.org/js/jsmind.js">
+  </script>
+  <script src="https://cdn.luogu.org/js/amazeui.min.js">
+  </script>
+  <script src="https://cdn.luogu.org/js/highcharts.js">
+  </script>
+  <script src="/static/katex/katex.min.js">
+  </script>
+  <script src="/static/katex/contrib/auto-render.min.js">
+  </script>
+  <script src="https://cdn.luogu.org/markdown-palettes/markdown-palettes.js?ver=20180322">
+  </script>
+  <script src="https://cdn.luogu.org/js/luogu3.js?ver=20180102-4">
+  </script>
+  <script async="" defer="" src="//www.recaptcha.net/recaptcha/api.js?hl=zh-CN&amp;render=explicit&amp;onload=renderCaptcha">
+  </script>
+ </body>
+</html>
