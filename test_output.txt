@@ -8,7 +8,7 @@
   </title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
   <meta content="webkit" name="renderer"/>
-  <meta content="1526539069:/xjEp3h1zxC2/g2PQzq+GsQPI6/Jv3IQhLDBj0EY3ik=" name="csrf-token"/>
+  <meta content="1526568476:ewxVDuCE9atnGkRuhelNdIY4GXTyXm9Mxra6WBdvzi4=" name="csrf-token"/>
   <link href="https://cdn.luogu.org/images/favicon3.ico" media="screen" rel="shortcut icon" type="image/x-icon"/>
   <link href="https://cdn.luogu.org/css/amazeui.min.css" rel="stylesheet"/>
   <link href="https://cdn.luogu.org/css/katex.min.css" rel="stylesheet"/>
@@ -217,9 +217,9 @@
    <div class="lg-content">
     <div class="lg-toolbar" data-am-sticky="">
      <h1>
-      U1
+      U53495
       <span name="username">
-       kkksc03
+       memset0
       </span>
      </h1>
     </div>
@@ -229,13 +229,13 @@
        <div class="lg-summary-content">
         <ul class="am-list am-list-static lg-summary-list">
          <li>
-          <img class="lg-avatar-big am-center" src="https://cdn.luogu.org/upload/usericon/1.png"/>
+          <img class="lg-avatar-big am-center" src="https://cdn.luogu.org/upload/usericon/53495.png"/>
          </li>
          <li>
           <ul class="am-avg-sm-2">
            <li>
             <span class="lg-bignum-num">
-             589
+             561
             </span>
             <span class="lg-bignum-text">
              提交
@@ -243,7 +243,7 @@
            </li>
            <li>
             <span class="lg-bignum-num">
-             120
+             192
             </span>
             <span class="lg-bignum-text">
              通过
@@ -256,7 +256,7 @@
            贡献/活跃/积分
           </strong>
           <span class="lg-right">
-           208 / 590 / 2230
+           0 / 439 / 1399
           </span>
          </li>
          <li>
@@ -264,7 +264,7 @@
            用户类型
           </strong>
           <span class="lg-right">
-           超级管理员/Root
+           普通用户
           </span>
          </li>
          <li>
@@ -272,12 +272,12 @@
            注册时间
           </strong>
           <span class="lg-right">
-           2012-06-18 14:13
+           2017-08-12 16:15
           </span>
          </li>
         </ul>
         <p>
-         <a class="am-btn am-btn-sm am-btn-primary" href="https://www.luogu.org/blog/kkksc03/" target="_blank">
+         <a class="am-btn am-btn-sm am-btn-primary" href="https://mem.blog.luogu.org/" target="_blank">
           Ta的洛谷博客
          </a>
         </p>
@@ -288,6 +288,11 @@
         通过题目
        </h2>
        [
+       <a data-pjax="" href="/problem/show?pid=P1000">
+        P1000
+       </a>
+       ]
+[
        <a data-pjax="" href="/problem/show?pid=P1001">
         P1001
        </a>
@@ -303,13 +308,13 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1005">
-        P1005
+       <a data-pjax="" href="/problem/show?pid=P1004">
+        P1004
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1007">
-        P1007
+       <a data-pjax="" href="/problem/show?pid=P1005">
+        P1005
        </a>
        ]
 [
@@ -333,23 +338,13 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1013">
-        P1013
+       <a data-pjax="" href="/problem/show?pid=P1014">
+        P1014
        </a>
        ]
 [
        <a data-pjax="" href="/problem/show?pid=P1015">
         P1015
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P1017">
-        P1017
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P1020">
-        P1020
        </a>
        ]
 [
@@ -363,18 +358,33 @@
        </a>
        ]
 [
+       <a data-pjax="" href="/problem/show?pid=P1029">
+        P1029
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1030">
+        P1030
+       </a>
+       ]
+[
        <a data-pjax="" href="/problem/show?pid=P1031">
         P1031
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1033">
-        P1033
+       <a data-pjax="" href="/problem/show?pid=P1035">
+        P1035
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1035">
-        P1035
+       <a data-pjax="" href="/problem/show?pid=P1036">
+        P1036
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1040">
+        P1040
        </a>
        ]
 [
@@ -408,18 +418,33 @@
        </a>
        ]
 [
+       <a data-pjax="" href="/problem/show?pid=P1049">
+        P1049
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1051">
+        P1051
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1055">
+        P1055
+       </a>
+       ]
+[
        <a data-pjax="" href="/problem/show?pid=P1056">
         P1056
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1061">
-        P1061
+       <a data-pjax="" href="/problem/show?pid=P1059">
+        P1059
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1063">
-        P1063
+       <a data-pjax="" href="/problem/show?pid=P1060">
+        P1060
        </a>
        ]
 [
@@ -438,18 +463,23 @@
        </a>
        ]
 [
+       <a data-pjax="" href="/problem/show?pid=P1071">
+        P1071
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1075">
+        P1075
+       </a>
+       ]
+[
        <a data-pjax="" href="/problem/show?pid=P1085">
         P1085
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1086">
-        P1086
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P1088">
-        P1088
+       <a data-pjax="" href="/problem/show?pid=P1087">
+        P1087
        </a>
        ]
 [
@@ -468,23 +498,53 @@
        </a>
        ]
 [
+       <a data-pjax="" href="/problem/show?pid=P1093">
+        P1093
+       </a>
+       ]
+[
        <a data-pjax="" href="/problem/show?pid=P1094">
         P1094
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1095">
-        P1095
+       <a data-pjax="" href="/problem/show?pid=P1096">
+        P1096
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1099">
-        P1099
+       <a data-pjax="" href="/problem/show?pid=P1098">
+        P1098
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1120">
-        P1120
+       <a data-pjax="" href="/problem/show?pid=P1101">
+        P1101
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1108">
+        P1108
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1111">
+        P1111
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1115">
+        P1115
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1118">
+        P1118
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1119">
+        P1119
        </a>
        ]
 [
@@ -493,8 +553,23 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1138">
-        P1138
+       <a data-pjax="" href="/problem/show?pid=P1140">
+        P1140
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1141">
+        P1141
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1144">
+        P1144
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1147">
+        P1147
        </a>
        ]
 [
@@ -503,8 +578,23 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1150">
-        P1150
+       <a data-pjax="" href="/problem/show?pid=P1162">
+        P1162
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1164">
+        P1164
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1165">
+        P1165
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1177">
+        P1177
        </a>
        ]
 [
@@ -513,63 +603,118 @@
        </a>
        ]
 [
+       <a data-pjax="" href="/problem/show?pid=P1181">
+        P1181
+       </a>
+       ]
+[
        <a data-pjax="" href="/problem/show?pid=P1190">
         P1190
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1196">
-        P1196
+       <a data-pjax="" href="/problem/show?pid=P1192">
+        P1192
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1203">
-        P1203
+       <a data-pjax="" href="/problem/show?pid=P1198">
+        P1198
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1236">
-        P1236
+       <a data-pjax="" href="/problem/show?pid=P1200">
+        P1200
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1237">
-        P1237
+       <a data-pjax="" href="/problem/show?pid=P1201">
+        P1201
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1244">
-        P1244
+       <a data-pjax="" href="/problem/show?pid=P1202">
+        P1202
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1262">
-        P1262
+       <a data-pjax="" href="/problem/show?pid=P1206">
+        P1206
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1268">
-        P1268
+       <a data-pjax="" href="/problem/show?pid=P1208">
+        P1208
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1312">
-        P1312
+       <a data-pjax="" href="/problem/show?pid=P1216">
+        P1216
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1314">
-        P1314
+       <a data-pjax="" href="/problem/show?pid=P1219">
+        P1219
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1371">
-        P1371
+       <a data-pjax="" href="/problem/show?pid=P1223">
+        P1223
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1381">
-        P1381
+       <a data-pjax="" href="/problem/show?pid=P1226">
+        P1226
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1303">
+        P1303
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1305">
+        P1305
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1307">
+        P1307
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1308">
+        P1308
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1328">
+        P1328
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1339">
+        P1339
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1351">
+        P1351
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1372">
+        P1372
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1387">
+        P1387
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1403">
+        P1403
        </a>
        ]
 [
@@ -588,48 +733,53 @@
        </a>
        ]
 [
+       <a data-pjax="" href="/problem/show?pid=P1426">
+        P1426
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1427">
+        P1427
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1433">
+        P1433
+       </a>
+       ]
+[
        <a data-pjax="" href="/problem/show?pid=P1434">
         P1434
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1440">
-        P1440
+       <a data-pjax="" href="/problem/show?pid=P1443">
+        P1443
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1441">
-        P1441
+       <a data-pjax="" href="/problem/show?pid=P1464">
+        P1464
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1448">
-        P1448
+       <a data-pjax="" href="/problem/show?pid=P1482">
+        P1482
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1480">
-        P1480
+       <a data-pjax="" href="/problem/show?pid=P1508">
+        P1508
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1494">
-        P1494
+       <a data-pjax="" href="/problem/show?pid=P1510">
+        P1510
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1495">
-        P1495
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P1498">
-        P1498
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P1514">
-        P1514
+       <a data-pjax="" href="/problem/show?pid=P1519">
+        P1519
        </a>
        ]
 [
@@ -638,33 +788,38 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1530">
-        P1530
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P1531">
-        P1531
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P1536">
-        P1536
-       </a>
-       ]
-[
        <a data-pjax="" href="/problem/show?pid=P1540">
         P1540
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1543">
-        P1543
+       <a data-pjax="" href="/problem/show?pid=P1541">
+        P1541
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1544">
-        P1544
+       <a data-pjax="" href="/problem/show?pid=P1546">
+        P1546
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1548">
+        P1548
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1563">
+        P1563
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1567">
+        P1567
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1577">
+        P1577
        </a>
        ]
 [
@@ -673,28 +828,73 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1612">
-        P1612
+       <a data-pjax="" href="/problem/show?pid=P1582">
+        P1582
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1679">
-        P1679
+       <a data-pjax="" href="/problem/show?pid=P1583">
+        P1583
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1710">
-        P1710
+       <a data-pjax="" href="/problem/show?pid=P1601">
+        P1601
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1721">
-        P1721
+       <a data-pjax="" href="/problem/show?pid=P1603">
+        P1603
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P1903">
-        P1903
+       <a data-pjax="" href="/problem/show?pid=P1616">
+        P1616
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1618">
+        P1618
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1739">
+        P1739
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1781">
+        P1781
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1807">
+        P1807
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1847">
+        P1847
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1855">
+        P1855
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1865">
+        P1865
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1880">
+        P1880
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1888">
+        P1888
        </a>
        ]
 [
@@ -703,33 +903,98 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2068">
-        P2068
+       <a data-pjax="" href="/problem/show?pid=P1909">
+        P1909
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2081">
-        P2081
+       <a data-pjax="" href="/problem/show?pid=P1914">
+        P1914
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2144">
-        P2144
+       <a data-pjax="" href="/problem/show?pid=P1948">
+        P1948
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2238">
-        P2238
+       <a data-pjax="" href="/problem/show?pid=P1962">
+        P1962
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2248">
-        P2248
+       <a data-pjax="" href="/problem/show?pid=P1980">
+        P1980
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2291">
-        P2291
+       <a data-pjax="" href="/problem/show?pid=P1993">
+        P1993
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P1996">
+        P1996
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2010">
+        P2010
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2038">
+        P2038
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2044">
+        P2044
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2058">
+        P2058
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2089">
+        P2089
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2118">
+        P2118
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2141">
+        P2141
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2142">
+        P2142
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2225">
+        P2225
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2239">
+        P2239
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2255">
+        P2255
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P2294">
+        P2294
        </a>
        ]
 [
@@ -738,63 +1003,58 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2350">
-        P2350
+       <a data-pjax="" href="/problem/show?pid=P2330">
+        P2330
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2354">
-        P2354
+       <a data-pjax="" href="/problem/show?pid=P2347">
+        P2347
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2367">
-        P2367
+       <a data-pjax="" href="/problem/show?pid=P2382">
+        P2382
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2378">
-        P2378
+       <a data-pjax="" href="/problem/show?pid=P2397">
+        P2397
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2409">
-        P2409
+       <a data-pjax="" href="/problem/show?pid=P2574">
+        P2574
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2415">
-        P2415
+       <a data-pjax="" href="/problem/show?pid=P2615">
+        P2615
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2438">
-        P2438
+       <a data-pjax="" href="/problem/show?pid=P2626">
+        P2626
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2541">
-        P2541
+       <a data-pjax="" href="/problem/show?pid=P2639">
+        P2639
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2556">
-        P2556
+       <a data-pjax="" href="/problem/show?pid=P2658">
+        P2658
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2617">
-        P2617
+       <a data-pjax="" href="/problem/show?pid=P2669">
+        P2669
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2634">
-        P2634
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=P2668">
-        P2668
+       <a data-pjax="" href="/problem/show?pid=P2670">
+        P2670
        </a>
        ]
 [
@@ -803,48 +1063,78 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2693">
-        P2693
+       <a data-pjax="" href="/problem/show?pid=P2678">
+        P2678
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2762">
-        P2762
+       <a data-pjax="" href="/problem/show?pid=P2722">
+        P2722
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2763">
-        P2763
+       <a data-pjax="" href="/problem/show?pid=P2846">
+        P2846
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2765">
-        P2765
+       <a data-pjax="" href="/problem/show?pid=P2871">
+        P2871
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P2858">
-        P2858
+       <a data-pjax="" href="/problem/show?pid=P3114">
+        P3114
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3034">
-        P3034
+       <a data-pjax="" href="/problem/show?pid=P3116">
+        P3116
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3164">
-        P3164
+       <a data-pjax="" href="/problem/show?pid=P3120">
+        P3120
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3198">
-        P3198
+       <a data-pjax="" href="/problem/show?pid=P3366">
+        P3366
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3235">
-        P3235
+       <a data-pjax="" href="/problem/show?pid=P3367">
+        P3367
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3368">
+        P3368
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3369">
+        P3369
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3370">
+        P3370
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3371">
+        P3371
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3372">
+        P3372
+       </a>
+       ]
+[
+       <a data-pjax="" href="/problem/show?pid=P3374">
+        P3374
        </a>
        ]
 [
@@ -853,113 +1143,108 @@
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3391">
-        P3391
+       <a data-pjax="" href="/problem/show?pid=P3378">
+        P3378
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3394">
-        P3394
+       <a data-pjax="" href="/problem/show?pid=P3382">
+        P3382
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3406">
-        P3406
+       <a data-pjax="" href="/problem/show?pid=P3383">
+        P3383
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3615">
-        P3615
+       <a data-pjax="" href="/problem/show?pid=P3870">
+        P3870
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3616">
-        P3616
+       <a data-pjax="" href="/problem/show?pid=P3951">
+        P3951
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3623">
-        P3623
+       <a data-pjax="" href="/problem/show?pid=P3952">
+        P3952
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3631">
-        P3631
+       <a data-pjax="" href="/problem/show?pid=P3954">
+        P3954
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3656">
-        P3656
+       <a data-pjax="" href="/problem/show?pid=P3955">
+        P3955
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3684">
-        P3684
+       <a data-pjax="" href="/problem/show?pid=P3956">
+        P3956
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3696">
-        P3696
+       <a data-pjax="" href="/problem/show?pid=P3958">
+        P3958
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3697">
-        P3697
+       <a data-pjax="" href="/problem/show?pid=CF1A">
+        CF1A
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3803">
-        P3803
+       <a data-pjax="" href="/problem/show?pid=SP1">
+        SP1
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3817">
-        P3817
+       <a data-pjax="" href="/problem/show?pid=AT211">
+        AT211
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3920">
-        P3920
+       <a data-pjax="" href="/problem/show?pid=AT918">
+        AT918
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3933">
-        P3933
+       <a data-pjax="" href="/problem/show?pid=AT2351">
+        AT2351
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3934">
-        P3934
+       <a data-pjax="" href="/problem/show?pid=AT3529">
+        AT3529
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3947">
-        P3947
+       <a data-pjax="" href="/problem/show?pid=AT3595">
+        AT3595
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3984">
-        P3984
+       <a data-pjax="" href="/problem/show?pid=AT3599">
+        AT3599
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P3985">
-        P3985
+       <a data-pjax="" href="/problem/show?pid=AT3675">
+        AT3675
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P4138">
-        P4138
+       <a data-pjax="" href="/problem/show?pid=AT3718">
+        AT3718
        </a>
        ]
 [
-       <a data-pjax="" href="/problem/show?pid=P4315">
-        P4315
-       </a>
-       ]
-[
-       <a data-pjax="" href="/problem/show?pid=CF912E">
-        CF912E
+       <a data-pjax="" href="/problem/show?pid=UVA679">
+        UVA679
        </a>
        ]
       </div>
@@ -973,8 +1258,89 @@
          签名
         </h2>
         <p>
-         吼啊
+         <strong>
+          去我的博客看看吧(不是洛谷博客)
+          <a href="https://memset0.cn">
+           memset0.cn
+          </a>
+         </strong>
         </p>
+        <p>
+         <strong>
+          我的资源分享站
+          <a href="http://cloud.memset0.cn">
+           cloud.memset0.cn
+          </a>
+         </strong>
+        </p>
+        <p>
+         <strong>
+          [博文]
+         </strong>
+         <strong>
+          <a href="http://memset0.cn/archives/macos10-on-vmware14">
+           <code>
+            VMware 14 安装 Mac OS 10.12笔记
+           </code>
+          </a>
+         </strong>
+        </p>
+        <p>
+         <strong>
+          [笔记]
+         </strong>
+         <strong>
+          <a href="http://luogu-hide.memset0.cn">
+           <code>
+            洛谷隐藏团队索引（带爬虫源码）
+           </code>
+          </a>
+         </strong>
+        </p>
+        <p>
+         <strong>
+          [搞事情]
+         </strong>
+         访问以下网址试试
+        </p>
+        <ul>
+         <li>
+          <strong>
+           <a href="//luogu.tk">
+            <code>
+             luogu.tk
+            </code>
+           </a>
+          </strong>
+         </li>
+         <li>
+          <strong>
+           <a href="//luogu.ml">
+            <code>
+             luogu.ml
+            </code>
+           </a>
+          </strong>
+         </li>
+         <li>
+          <strong>
+           <a href="//luogu.ga">
+            <code>
+             luogu.ga
+            </code>
+           </a>
+          </strong>
+         </li>
+         <li>
+          <strong>
+           <a href="//luogu.gq">
+            <code>
+             luogu.gq
+            </code>
+           </a>
+          </strong>
+         </li>
+        </ul>
        </div>
        <div class="lg-article am-g lg-status">
         <div class=" am-g" style="height: 200px;padding-top: 10px">
@@ -985,8 +1351,8 @@
         </div>
         <script>
          $(function () {
-                            $('#container').highcharts({"title":{"text":"","floating":true},"chart":{"backgroundColor":"rgba(0,0,0,0)"},"legend":{"enabled":false},"xAxis":{"categories":["May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb","Mar","Apr"],"floating":true,"minTickInterval":2},"yAxis":[{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[1]"}},"title":{"text":"\u7d2f\u79ef\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[1]"}},"floor":107},{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[3]"},"enabled":false},"title":{"text":"\u65b0\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[3]"},"enabled":false},"opposite":true}],"tooltip":{"shared":true},"series":[{"name":"\u7d2f\u79ef\u901a\u8fc7\u6570","type":"area","data":[112,112,112,113,113,115,115,115,118,119,120,120]},{"name":"\u5f53\u6708\u901a\u8fc7\u6570","type":"column","data":[1,0,0,1,1,3,0,0,4,2,1,0],"yAxis":1}],"credits":{"enabled":false}});
-                            $('#container2').highcharts({"title":{"text":"","floating":true},"chart":{"backgroundColor":"rgba(0,0,0,0)"},"legend":{"enabled":false},"xAxis":{"categories":["05-1","05-2","05-3","05-4","05-5","05-6","05-7","05-8","05-9","05-10","05-11","05-12","05-13","05-14","05-15","05-16","05-17","05-18","05-19","05-20","05-21","05-22","05-23","05-24","05-25","05-26","05-27","05-28","05-29","05-30","05-31"],"floating":true,"minTickInterval":5},"yAxis":[{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[1]"},"enabled":false},"title":{"text":"\u7d2f\u79ef\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[1]"},"enabled":false},"floor":115},{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[3]"}},"title":{"text":"\u65b0\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[3]"}},"opposite":true}],"tooltip":{"shared":true},"series":[{"name":"\u7d2f\u79ef\u901a\u8fc7\u6570","type":"area","data":[120,120,120,120,120,120,120,120,120,120,120,120,120,120,120,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},{"name":"\u5f53\u65e5\u901a\u8fc7\u6570","type":"column","data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"yAxis":1}],"credits":{"enabled":false}});
+                            $('#container').highcharts({"title":{"text":"","floating":true},"chart":{"backgroundColor":"rgba(0,0,0,0)"},"legend":{"enabled":false},"xAxis":{"categories":["May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb","Mar","Apr"],"floating":true,"minTickInterval":2},"yAxis":[{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[1]"}},"title":{"text":"\u7d2f\u79ef\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[1]"}},"floor":-5},{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[3]"},"enabled":false},"title":{"text":"\u65b0\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[3]"},"enabled":false},"opposite":true}],"tooltip":{"shared":true},"series":[{"name":"\u7d2f\u79ef\u901a\u8fc7\u6570","type":"area","data":[0,0,0,8,27,56,102,108,115,134,158,177]},{"name":"\u5f53\u6708\u901a\u8fc7\u6570","type":"column","data":[0,0,0,8,19,30,48,6,7,22,25,21],"yAxis":1}],"credits":{"enabled":false}});
+                            $('#container2').highcharts({"title":{"text":"","floating":true},"chart":{"backgroundColor":"rgba(0,0,0,0)"},"legend":{"enabled":false},"xAxis":{"categories":["05-1","05-2","05-3","05-4","05-5","05-6","05-7","05-8","05-9","05-10","05-11","05-12","05-13","05-14","05-15","05-16","05-17","05-18","05-19","05-20","05-21","05-22","05-23","05-24","05-25","05-26","05-27","05-28","05-29","05-30","05-31"],"floating":true,"minTickInterval":5},"yAxis":[{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[1]"},"enabled":false},"title":{"text":"\u7d2f\u79ef\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[1]"},"enabled":false},"floor":173},{"labels":{"format":"{value}","style":{"color":"Highcharts.getOptions().colors[3]"}},"title":{"text":"\u65b0\u901a\u8fc7","style":{"color":"Highcharts.getOptions().colors[3]"}},"opposite":true}],"tooltip":{"shared":true},"series":[{"name":"\u7d2f\u79ef\u901a\u8fc7\u6570","type":"area","data":[178,179,180,180,189,189,189,189,190,192,192,192,192,192,192,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},{"name":"\u5f53\u65e5\u901a\u8fc7\u6570","type":"column","data":[1,1,1,0,9,4,0,0,1,2,0,0,0,0,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"yAxis":1}],"credits":{"enabled":false}});
                         });
         </script>
        </div>
@@ -1003,7 +1369,7 @@
     <script>
      var subfunc = window.location.hash;
     var autouid = 0;
-    var uid = 1;
+    var uid = 53495;
 
     function to_wiki_list(uid, page) {
         page = page || 1;
@@ -1070,7 +1436,7 @@
     );
 
     var feedPage = 1;
-    var feedMode = 'user/1';
+    var feedMode = 'user/53495';
     var $feed = $("#feed");
     function loadFeed() {
         $.get("/feed/"+feedMode+"?page="+feedPage, function(resp) {
@@ -1103,7 +1469,7 @@
                 //get_notice(url);
                 break;
             case "#wiki_list":
-                to_wiki_list(1);
+                to_wiki_list(53495);
                 break;
             case "#mynotice":
                 to_notice();
