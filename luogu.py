@@ -62,7 +62,7 @@ def UserAnalysis():
     file = open(getrespath('user/information.txt'), 'w+', encoding = 'utf8')
     file.write(printer(['用户ID', '用户名',
                         '提交', '解决', '贡献', '活跃', '积分',
-                        '用户类型', '注册时间', 
+                        '用户类型', '注册时间',
                         '博客网址', '解决题目数', '通过的题目']))
     for user_id in [1, 53495]:
         # for user_id in range(-1, the_largest_user_id + 1):
